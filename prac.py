@@ -1,0 +1,6 @@
+n = int(input("Enter the number of inputs: "))
+input_str = input("Enter the inputs separated by space: ")
+input_list = input_str.split()
+print(input_list)
+input_ints=list(map(int,input_list))
+print(input_ints)
